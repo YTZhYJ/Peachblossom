@@ -1,10 +1,11 @@
 package com.pytd.db.entity;
 /**
- * 权限分组表
+ * 管理人员表
  * 
  * @author zhang
  *
  */
-public class Auth_Group {
-
+public class Auth_User {
+	private Long id;
+	
 }
