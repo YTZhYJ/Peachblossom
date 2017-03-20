@@ -11,10 +11,10 @@ public class User {
 	private Long id;                 //用户ID
 	private String account;          //登录账号
 	private String password;         //登录密码
-	private Dict_Department department; //所在部门ID
+	private DictDepartment department; //所在部门ID
 	private Boolean isActive;        //是否活跃
 	private String realName;         //真是姓名
-	private Dict_Gender gender;               //性别ID
+	private DictGender gender;               //性别ID
 	private Long mobilePhone;        //手机号码
 	private Long festnetzNumber;     //座机号码
 	private String del;              //删除标志
@@ -38,10 +38,10 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public Dict_Department getDepartment() {
+	public DictDepartment getDepartment() {
 		return department;
 	}
-	public void setDepartment(Dict_Department department) {
+	public void setDepartment(DictDepartment department) {
 		this.department = department;
 	}
 	public Boolean getIsActive() {
@@ -56,10 +56,10 @@ public class User {
 	public void setRealName(String realName) {
 		this.realName = realName;
 	}
-	public Dict_Gender getGender() {
+	public DictGender getGender() {
 		return gender;
 	}
-	public void setGender(Dict_Gender gender) {
+	public void setGender(DictGender gender) {
 		this.gender = gender;
 	}
 	public Long getMobilePhone() {

@@ -5,7 +5,7 @@ package com.pytd.db.entity;
  * @author zhang
  *
  */
-public class Dict_Gender {
+public class DictGender {
 	private Long id;                   //性别ID
 	private String name_EN;            //性别英文说明
 	private String name_CN;            //性别中文说明

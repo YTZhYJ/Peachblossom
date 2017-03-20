@@ -6,6 +6,6 @@ package com.pytd.db.entity;
  * @author zhang
  *
  */
-public class Auth_User2Group {
+public class AuthUser2Group {
 
 }

@@ -5,10 +5,10 @@ package com.pytd.db.entity;
  * @author zhang
  *
  */
-public class Module_Menu {
+public class ModuleMenu {
 
 	private Long id;                      //菜单模块ID
-	private Module_Menu father;           //上一级菜单项
+	private ModuleMenu father;           //上一级菜单项
 	private String url;                   //本级菜单的URL
 	private String name_CN;               //中文名称
 	private String name_EN;               //英文名称
@@ -20,10 +20,10 @@ public class Module_Menu {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public Module_Menu getFather() {
+	public ModuleMenu getFather() {
 		return father;
 	}
-	public void setFather(Module_Menu father) {
+	public void setFather(ModuleMenu father) {
 		this.father = father;
 	}
 	public String getUrl() {

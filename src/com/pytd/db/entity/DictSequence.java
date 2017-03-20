@@ -5,7 +5,7 @@ package com.pytd.db.entity;
  * @author zhang
  *
  */
-public class Dict_Sequence {
+public class DictSequence {
 
 	private Long id;              //排序信息ID
 	private int level;            //排序等级

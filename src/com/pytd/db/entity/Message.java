@@ -12,7 +12,7 @@ public class Message {
 
 	private Long id;                       //信息的ID
 	private String title;                  //消息标题
-	private Dict_Sequence sequence;             //消息顺序
+	private DictSequence sequence;             //消息顺序
 	private String content;                //消息内容
 	private Date releaseTime;              //发布时间
 	private User operator;                 //操作人员
@@ -30,10 +30,10 @@ public class Message {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	public Dict_Sequence getSequence() {
+	public DictSequence getSequence() {
 		return sequence;
 	}
-	public void setSequence(Dict_Sequence sequence) {
+	public void setSequence(DictSequence sequence) {
 		this.sequence = sequence;
 	}
 	public String getContent() {

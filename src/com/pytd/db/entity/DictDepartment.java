@@ -8,7 +8,7 @@ import java.sql.Date;
  * @author zhang
  * @date 2017.03.18
  */
-public class Dict_Department {
+public class DictDepartment {
 	
 	private Long id;                   //部门id
 	private String name_EN;            //部门英文名字

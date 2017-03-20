@@ -5,7 +5,7 @@ package com.pytd.db.entity;
  * @author zhang
  * @see http://www.open-open.com/lib/view/open1413272655903.html
  */
-public class Auth_User {
+public class AuthUser {
 	private Long id;
 	private String name;
 	private String password;
