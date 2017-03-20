@@ -3,8 +3,10 @@
                                    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="com.pytd.db.entity">
 	<class name="AuthUser" table="Auth_User">
-		<id column="id" name="id"/>
+		<id column="id" name="id">
+			<generator class="native"></generator>
+		</id>
   		<property column="name" generated="never" lazy="false" name="name" type="string"/>
-  		<property column="password" generated="never" lazy="false" name="password" type="int"/>
+  		<property column="password" generated="never" lazy="false" name="password" type="string"/>
  	</class>
 </hibernate-mapping>

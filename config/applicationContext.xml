@@ -22,8 +22,8 @@
 		<!-- 配置 hibernate 配置文件 -->
 		<property name="configLocation" value="classpath:hibernate.cfg.xml"></property>
 		<!-- 配置 hibernate 映射文件 	-->
-		<!-- <property name="mappingLocations" value="classpath:/indi/bjtu/db/entities/hibernatexml/*.hbm.xml"></property> -->
-		<!-- 
+		<!--  <property name="mappingLocations" value="classpath:/com/pytd/db/entity/hibernatexml/*.hbm.xml"></property>
+		--><!-- 
 		<property name="mappingDirectoryLocations">
 			<list>
 				<value>classpath:indi/bjtu/db/entities/hibernatexml</value>

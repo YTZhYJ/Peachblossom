@@ -1,11 +1,11 @@
 #MyEclipse Hibernate Properties
-#Mon Mar 20 12:09:33 CST 2017
+#Tue Mar 21 01:20:21 CST 2017
 genVersionTag=false
 sessionFactoryName=.HibernateSessionFactory
 genAnnotations=false
-configFile=/Peachblossom/src/hibernate.cfg.xml
+configFile=/Peachblossom/config/hibernate.cfg.xml
 reStrategyClass=
-sessionFactoryId=sessionFactory
+sessionFactoryId=
 profile=
 detectM2M=false
 genBasicCompId=false
